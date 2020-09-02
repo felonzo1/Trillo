@@ -85,13 +85,13 @@
                 <main class="hotel-view">
                    <div class="gallery">
                        <figure class="gallery__item">
-                         <img src="img/hotel-1.jpg" alt="Photo of hotel 1" class="gallery__photo">
+                         <img name="slide" alt="Photo of hotel 1" class="gallery__photo" id="slide">
                        </figure>
                        <figure class="gallery__item">
-                         <img src="img/hotel-2.jpg" alt="Photo of hotel 2" class="gallery__photo">
+                         <img src="./img/hotel-2.jpg"  alt="Photo of hotel 2" class="gallery__photo" name="slide">
                        </figure>
                        <figure class="gallery__item">
-                         <img src="img/hotel-3.jpg" alt="Photo of hotel 3" class="gallery__photo">
+                         <img src="./img/hotel-3.jpg"  alt="Photo of hotel 3" class="gallery__photo" name="slide">
                        </figure>
                    </div>
                    <div class="overview">
@@ -129,14 +129,77 @@
                    </div>
                    <div class="details">
                        <div class="description">
-                           
+                           <p class="paragraph">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nisi dignissimos debitis ratione sapiente saepe. Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate.
+                           </p>
+                           <p class="paragraph">
+                            Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus, inventore iure aliquid aliquam.
+                           </p>
+                           <ul class="list">
+                               <li class="list__item">Close to the beach</li>
+                               <li class="list__item">Breakfast is included</li>
+                               <li class="list__item">Free airport shuttle</li>
+                               <li class="list__item">Free wifi in all rooms</li>
+                               <li class="list__item">Air Conditioning</li>
+                               <li class="list__item">Pet allowed</li>
+                               <li class="list__item">We speak all languages</li>
+                               <li class="list__item">Perfect for families</li>
+                            </ul>
+                           <div class="recommend">
+                                <p class="recommend__count">
+                                    Joshua and 3 three other friends recommend this hotel.
+                                </p>
+                                <div class="recommend__friends">
+                                    <img src="./img/user-3.jpg" alt="Friends 1" class="recommend__photo">
+                                    <img src="./img/user-4.jpg" alt="Friends 2" class="recommend__photo">
+                                    <img src="./img/user-5.jpg" alt="Friends 3" class="recommend__photo">
+                                    <img src="./img/user-6.jpg" alt="Friends 4" class="recommend__photo">
+                                </div>
+                           </div>
                        </div>
                        <div class="user-review">
-                             user-review
+                            <figure class="review">
+                                <blockquote class="review__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi, totam, itaque officia ex.
+                                </blockquote>
+                                <figcaption class="review__user">
+                                    <img src="./img/user-1.jpg" alt="User 1" class="review__photo">
+                                    <div class="review__user-box">
+                                        <p class="review__user-name">Ola Felix</p>
+                                        <p class="review__user-date">April 23rd 2020</p>
+                                    </div>
+                                    <div class="review__rating">7.8</div>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="review">
+                                <blockquote class="review__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi, totam, itaque officia ex.
+                                </blockquote>
+                                <figcaption class="review__user">
+                                    <img src="./img/user-2.jpg" alt="User 1" class="review__photo">
+                                    <div class="review__user-box">
+                                        <p class="review__user-name">Imole Agnes</p>
+                                        <p class="review__user-date">October 8 2020</p>
+                                    </div>
+                                    <div class="review__rating">9.8</div>
+                                </figcaption>
+                            </figure>
+                            <button class="btn-inline">Show all <span> &rarr;</span></button>
                        </div>
                    </div>
+                   <div class="cta">
+                    <h2 class="cta__book-now">
+                        Good news! We have 4 free rooms for your selected dats
+                    </h2>
+                    <button class="btn">
+                        <span class="btn__visible">Book Now</span>
+                        <span class="btn__invisible"> Only 4 rooms left</span>
+                    </button>
+                </div>
                 </main>
             </div>
         </div>
+        <script src="./script.js"></script>
     </body>
 </html>
